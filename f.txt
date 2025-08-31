@@ -1,0 +1,45 @@
+"Name": "Телепорт при убийстве",                      // название раунда   
+
+"Weapons": ["weapon_knife", "weapon_ak47"],           // Массив оружия, которое выдается игрокам 
+
+"Shortcut": "shortcut",                                // Короткое название для команды (!shortcut) 
+
+"RoundIcon": "ak47",                                    // Иконка раунда (имя файла без расширения)      
+
+"EnableTeleportKill": true,                             // true - включить телепорт при убийстве      
+
+"EnableESP": false,                                      // true - включить ESP для всех игроков      
+
+"NoScope": true,                                         // true - заблокировать прицел, false - разрешить      
+
+"OnlyHeadshot": false,                                    // true - только хедшоты, false - любой урон      
+
+"KnifeDamage": true,                                       // true - разрешить урон от ножа, false - заблокировать      
+
+"Speed": 2.0,                                               // Множитель скорости (1.0 = нормальная скорость)      
+
+"Scale": 0.8,                                              // Размер модели игрока (1.0 = нормальный размер)      
+
+"Health": 150,                                            // Количество здоровья (по умолчанию 100)      
+
+"MaxHealth": 200,                                         // Максимальное здоровье      
+
+"Kevlar": 100,                                            // Количество брони (0-100)      
+
+"Helmet": true,                                           // true - выдать шлем, false - без шлема      
+
+"AllowBuy": true,                                         // true - разрешить покупку оружия, false - запретить      
+
+"NoBuy": true,                                             // Альтернативный способ запрета покупки (устаревший)      
+
+"ShowWeaponIcons": ["weapon_awp"],                         // показать иконку оружия      
+
+"HideWeaponIcons": ["weapon_knife"],                      // скрыть иконку оружия      
+
+"CustomImage": "https://raw.githubusercontent.com/litershow/custom_roundsIMG/main/deagle.png",      // кастомная ссылка на иконку      
+
+"CustomImageWidth": "64",                                 //размер изображения ( не работает)      
+
+"CustomImageHeight": "64",                                //размер изображения ( не работает)      
+
+"CenterMsg": "html_customround"                           //тип иконки
